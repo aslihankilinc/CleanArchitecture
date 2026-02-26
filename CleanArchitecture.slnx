@@ -4,5 +4,7 @@
     <Project Path="CleanArchitecture.Domain/CleanArchitecture.Domain.csproj" />
   </Folder>
   <Folder Name="/Infrastructure/" />
-  <Folder Name="/Tests/" />
+  <Folder Name="/Tests/">
+    <Project Path="CleanArchitecture.Tests/CleanArchitecture.Tests.csproj" Id="1bd7b47c-dbb2-4862-aac4-b57d35893d6b" />
+  </Folder>
 </Solution>
