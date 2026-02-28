@@ -1,6 +1,7 @@
 <Solution>
   <Folder Name="/API/" />
   <Folder Name="/Core/">
+    <Project Path="CleanArchitecture.Application/CleanArchitecture.Application.csproj" Id="ff30830b-0ef6-4199-ab04-2ded05ea559b" />
     <Project Path="CleanArchitecture.Domain/CleanArchitecture.Domain.csproj" />
   </Folder>
   <Folder Name="/Infrastructure/" />
