@@ -1,0 +1,21 @@
+@API_HostAddress = https://localhost:7127/api/Office
+
+###
+
+GET {{API_HostAddress}}/019E4563-7685-726E-88FA-5A1F9EC0B50F
+ACCEPT:application/json
+
+###
+
+POST {{API_HostAddress}}
+Content-Type: application/json
+
+{
+  "Name": "Room 102"
+}
+
+###
+
+# calismazsa guvenlik sertifakasi sorunu olabilir 
+# terminalde aşagidaki kodu blogunu calistirip ide'yi kapatığ aciniz
+# dotnet dev-certs https --trust
